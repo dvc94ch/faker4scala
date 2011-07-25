@@ -70,4 +70,4 @@ This is a Scala port of the [ruby faker lib](http://faker.rubyforge.org/) for ge
 
 *Scala Doc:*
 
-http://faker4scala.googlecode.com/svn/trunk/%20faker4scala/faker4scala_2.9.0-1.2-javadoc/index.html
+http://dvc94ch.github.com/faker4scala
