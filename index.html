@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title></title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="lib/index.css" />
+      <script type="text/javascript" src="lib/jquery.js"></script>
+      <script type="text/javascript" src="lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="lib/jquery.layout.js"></script>
+      <script type="text/javascript" src="lib/index.js"></script>
+      <script type="text/javascript" src="lib/scheduler.js"></script>
+    
+        </head>
+        <body>
+      <div id="library">
+        <img class="class icon" src="lib/class.png" />
+        <img class="trait icon" src="lib/trait.png" />
+        <img class="object icon" src="lib/object.png" />
+        <img class="package icon" src="lib/package.png" />
+      </div>
+          
+    <div class="ui-layout-west" id="browser">
+      <div class="ui-west-center">
+      <div id="filter"></div>
+      <div class="pack" id="tpl">
+            
+            <ol class="templates"></ol>
+            <ol class="packages"> <li class="pack" title="fake">
+            <a class="tplshow" target="template" href="fake/package.html">fake</a>
+            <ol class="templates"><li title="fake.Company"><a class="tplshow" target="template" href="fake/Company$.html"><span class="object">(object)</span><div class="placeholder"></div><span class="tplLink">Company</span></a></li><li title="fake.Date"><a class="tplshow" target="template" href="fake/Date$.html"><span class="object">(object)</span><div class="placeholder"></div><span class="tplLink">Date</span></a></li><li title="fake.Image"><a class="tplshow" target="template" href="fake/Image$.html"><span class="object">(object)</span><div class="placeholder"></div><span class="tplLink">Image</span></a></li><li title="fake.Internet"><a class="tplshow" target="template" href="fake/Internet$.html"><span class="object">(object)</span><div class="placeholder"></div><span class="tplLink">Internet</span></a></li><li title="fake.Lorem"><a class="tplshow" target="template" href="fake/Lorem$.html"><span class="object">(object)</span><div class="placeholder"></div><span class="tplLink">Lorem</span></a></li><li title="fake.Name"><a class="tplshow" target="template" href="fake/Name$.html"><span class="object">(object)</span></a><a class="tplshow" target="template" href="fake/Name.html"><span class="class">(class)</span><span class="tplLink">Name</span></a></li><li title="fake.PhoneNumber"><a class="tplshow" target="template" href="fake/PhoneNumber$.html"><span class="object">(object)</span><div class="placeholder"></div><span class="tplLink">PhoneNumber</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li></ol>
+          </div></div><script type="text/javascript">
+      Index.PACKAGES = {"fake" : [{"object" : "fake\/Company$.html", "name" : "fake.Company"}, {"object" : "fake\/Date$.html", "name" : "fake.Date"}, {"object" : "fake\/Image$.html", "name" : "fake.Image"}, {"object" : "fake\/Internet$.html", "name" : "fake.Internet"}, {"object" : "fake\/Lorem$.html", "name" : "fake.Lorem"}, {"class" : "fake\/Name.html", "object" : "fake\/Name$.html", "name" : "fake.Name"}, {"object" : "fake\/PhoneNumber$.html", "name" : "fake.PhoneNumber"}]};
+    </script>
+    </div>
+    
+      <div class="ui-layout-center" id="content">
+        <iframe name="template" src="package.html"></iframe>
+      </div>
+    </body>
+      </html>
