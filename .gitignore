@@ -1,0 +1,8 @@
+target/
+project/boot/
+project/target
+.classpath
+.project
+.scala_dependencies
+.history
+gh-pages
