@@ -2,7 +2,7 @@ This is a Scala port of the [ruby faker lib](http://faker.rubyforge.org/) for ge
 
 ### Getting Started with Faker 1.2:
 
-'''scala
+```scala
 import fake._
 
 object GenerateSomeData extends Application {
@@ -18,13 +18,13 @@ object GenerateSomeData extends Application {
     println(Lorem.text(5))
   }
 }
-'''
+```
 
 ### A more extensive example:
 
 *Books.scala*
 
-'''scala
+```scala
 import fake._
 
 class Book extends Generator {
@@ -57,11 +57,11 @@ object Book {
   // define factory method
   def factory = new Book
 }
-'''
+```
 
 *main.scala*
 
-'''scala
+```scala
 object GenerateSomeData {
 
   def main(args: Array[String]) {
@@ -70,7 +70,7 @@ object GenerateSomeData {
     println(Generator.fill(Book.factory, 5).mkString("\n"))
   }
 }
-'''
+```
 
 *Scala Doc:*
 
